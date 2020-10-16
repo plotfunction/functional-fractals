@@ -1,8 +1,16 @@
 
+![Fractal](out.png "Fractal")
+
 Requires
 
 - Haskell
 - JuicyPixels
 
-Compile with `ghc main.hs`
+### How to run
+
+```sh
+$ cabal install JuicyPixels
+$ ghc main.hs
+$ ./main
+```
 

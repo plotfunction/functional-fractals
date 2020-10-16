@@ -10,10 +10,10 @@ x0, y0, x1, y1 :: Double
 (x1, y1) = (-0.8075, y0 + (x1 - x0) * aspectRatio)
 
 width, height :: Int
-(width, height) = (10000, round . (* aspectRatio) . fromIntegral $ width)
+(width, height) = (1000, round . (* aspectRatio) . fromIntegral $ width)
 
 maxIters :: Int
-maxIters = 20
+maxIters = 60
 
 fractal :: RealFloat a => Complex a -> Complex a -> Int -> (Complex a, Int)
 fractal c z iter
