@@ -1,5 +1,4 @@
-
-![Fractal](out.png "Fractal")
+![Mandelbrot fractal](mandelbrot.png "Fractal")
 
 Requires
 
@@ -8,9 +7,9 @@ Requires
 
 ### How to run
 
-```sh
-$ cabal install JuicyPixels
-$ ghc main.hs
-$ ./main
+```shell
+cabal update
+cabal install --lib JuicyPixels
+ghc -Wall -Werror main.hs
+./main
 ```
-
